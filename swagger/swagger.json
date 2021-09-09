@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "localhost:3443",
+  "host": "https://app-issue-tracker-api.herokuapp.com",
   "basePath": "/api",
   "tags": [],
   "schemes": [
