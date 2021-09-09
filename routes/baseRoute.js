@@ -44,6 +44,7 @@ baseRouter.get("/", async (req, res) => {
     password: password
   }).
   then(result => {
+    console.log(result.data);
     res.status(200).send(result.data);
   }).catch(err=>{
     if(err)

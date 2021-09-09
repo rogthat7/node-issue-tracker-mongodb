@@ -1,1 +1,1 @@
-# node-issue-tracker-mongodb
+# node-common
