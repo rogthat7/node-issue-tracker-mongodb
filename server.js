@@ -37,7 +37,7 @@ if(process.env.NODE_ENV.trim() === 'production')
 ConnectToDb(DBCon);
 
 
-const PORT = process.env.PORT_SSL || 3443;
+const PORT = process.env.PORT || 3443;
 //start server 
 baseApp.listen(PORT, () => {
   logger.info(`Server started at PORT ${PORT}`);
