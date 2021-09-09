@@ -7,7 +7,7 @@
     "start-gendoc": "node helpers/swaggerHelper.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node helpers/swaggerHelper.js && nodemon server.js",
-    "start": "set NODE_ENV=production & nodemon server.js"
+    "start": "set NODE_ENV=production & node server.js"
   },
   "keywords": [],
   "author": "",
